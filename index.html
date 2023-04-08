@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Movie Listening</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>My Movie Listening</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Movies</a></li>
+          <li><a href="#">Reviews</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      
+      <section>
+        <h2>Featured Movie</h2>
+        <article>
+          <h3>Movie Title</h3>
+          <p>Movie description goes here</p>
+          <a href="#">Watch Now</a>
+        </article>
+      </section>
+      <section>
+        <h2>Upload Movie</h2>
+        <!-- <form class="upload-form" action="upload.php" method="post" enctype="multipart/form-data">
+          <label for="file">Select Movie File:</label>
+          <input type="file" name="movie" id="file">
+          <button type="submit" name="submit">Upload</button>
+      
+        </form> -->
+        <form action="upload.php" method="post" enctype="multipart/form-data">
+          <input type="file" name="movie">
+          <input type="submit" value="Upload">
+        </form>
+      </section>
+      <section>
+        <h2>Recent Movies</h2>
+        <ul>
+          <li><a href="#">Movie Title 1</a></li>
+          <li><a href="#">Movie Title 2</a></li>
+          <li><a href="#">Movie Title 3</a></li>
+          <li><a href="#">Movie Title 4</a></li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright &copy; 2023 My Movie Listening.
+    </footer>
+  </body>
+</html>

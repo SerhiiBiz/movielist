@@ -1,0 +1,167 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 10px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 32px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff !important;
+  text-decoration: none;
+  padding: 10px;
+  background-color: #f00;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+nav a:hover {
+  color: #f00 !important;
+  background-color: #fff;
+  border: 1px solid #f00;
+}
+
+/* Main */
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 24px;
+  text-align: center;
+}
+
+article {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f00;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  background-color: #fff;
+  color: #f00;
+  border: 1px solid #f00;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+li a {
+  color: #f00;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #222;
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Upload Form */
+.upload-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.upload-form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.upload-form input[type="file"] {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.upload-form button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f00;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.upload-form button:hover {
+  background-color: #fff;
+  color: #f00;
+  border: 1px solid #f00;
+}
